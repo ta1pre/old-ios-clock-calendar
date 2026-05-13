@@ -1,0 +1,16 @@
+{
+  "locale": "en-US",
+  "isDefault": true,
+  "appName": "Old iOS Clock & Calendar",
+  "subtitle": "Reuse old devices offline",
+  "promotionalText": "Turn an older iPhone or iPad into a simple offline clock and calendar.",
+  "description": "Old iOS Clock & Calendar helps you reuse an older iPhone or iPad as a simple clock and monthly calendar display. The app works offline and keeps the experience focused: an analog clock, a monthly calendar, light and dark appearance, and a choice of week start day. No account. No ads. No tracking. No subscriptions. Just a one-time purchase for a quiet, always-available clock and calendar.",
+  "keywords": "offline clock,calendar,old iphone,old ipad,desk clock,analog",
+  "supportURLPath": "/support/",
+  "privacyURLPath": "/privacy/",
+  "marketingURLPath": "/",
+  "category": "Utilities",
+  "priceUSD": "5.99",
+  "copyright": "2026 Taichi Umeki",
+  "reviewNotes": "No sign-in is required. The app works offline. Open Settings from the small info button in the top-right corner. The app contains no ads, no account system, no subscriptions, and no in-app purchases."
+}
