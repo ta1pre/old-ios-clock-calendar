@@ -1,0 +1,42 @@
+{
+  "en-US": {
+    "status": "pass",
+    "issues": []
+  },
+  "ja-JP": {
+    "status": "pass",
+    "issues": []
+  },
+  "ko-KR": {
+    "status": "pass",
+    "issues": []
+  },
+  "de-DE": {
+    "status": "pass",
+    "issues": []
+  },
+  "fr-FR": {
+    "status": "pass",
+    "issues": []
+  },
+  "zh-Hant": {
+    "status": "pass",
+    "issues": []
+  },
+  "it-IT": {
+    "status": "pass",
+    "issues": []
+  },
+  "nl-NL": {
+    "status": "pass",
+    "issues": []
+  },
+  "es-ES": {
+    "status": "pass",
+    "issues": []
+  },
+  "pt-BR": {
+    "status": "pass",
+    "issues": []
+  }
+}

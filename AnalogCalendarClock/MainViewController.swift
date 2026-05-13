@@ -29,7 +29,8 @@ final class MainViewController: UIViewController {
     private var clockPreferredUsesHeightConstraint = false
 
     private var clockTimer: Timer?
-    private var currentDate = Date()
+    private var currentDate = ScreenshotOptions.shared.fixedDate ?? Date()
+    private var hasPresentedLaunchSettings = false
 
     override var prefersStatusBarHidden: Bool {
         return true
@@ -63,6 +64,14 @@ final class MainViewController: UIViewController {
         super.viewWillLayoutSubviews()
         applySizingRules(for: view.bounds.size)
         updateLightModeShadow()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if ScreenshotOptions.shared.showsSettingsOnLaunch && !hasPresentedLaunchSettings {
+            hasPresentedLaunchSettings = true
+            presentSettings(animated: false)
+        }
     }
 
     private func setupHierarchy() {
@@ -154,6 +163,7 @@ final class MainViewController: UIViewController {
 
     private func startClockTimer() {
         updateClock()
+        guard ScreenshotOptions.shared.fixedDate == nil else { return }
         clockTimer?.invalidate()
         clockTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
             self?.updateClock()
@@ -161,7 +171,7 @@ final class MainViewController: UIViewController {
     }
 
     private func updateClock() {
-        let now = Date()
+        let now = ScreenshotOptions.shared.fixedDate ?? Date()
         clockView.displayDate = now
         if !Calendar.current.isDate(now, inSameDayAs: currentDate) {
             calendarView.displayDate = now
@@ -170,17 +180,17 @@ final class MainViewController: UIViewController {
     }
 
     @objc private func settingsButtonTapped() {
-        presentSettings()
+        presentSettings(animated: true)
     }
 
     @objc private func handleSettingsChanged() {
         applySettings()
     }
 
-    private func presentSettings() {
+    private func presentSettings(animated: Bool) {
         guard presentedViewController == nil else { return }
         let controller = SettingsViewController(settingsStore: settingsStore)
-        present(controller, animated: true)
+        present(controller, animated: animated)
     }
 
     private func applySettings() {

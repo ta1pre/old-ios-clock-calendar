@@ -1,0 +1,16 @@
+{
+  "locale": "zh-Hant",
+  "isDefault": false,
+  "appName": "Old Device Clock & Calendar",
+  "subtitle": "把舊裝置變成時鐘與月曆",
+  "promotionalText": "把舊 iPhone 或 iPad 變成簡單的離線時鐘與月曆。",
+  "description": "Old Device Clock & Calendar 可讓你把舊 iPhone 或 iPad 重新用作簡單的時鐘與月曆顯示。App 可離線運作，功能只保留真正需要的部分：類比時鐘、月曆、淺色 / 深色顯示，以及一週開始日選擇。無帳號、無廣告、無追蹤、無訂閱。一次購買，就能擁有安靜、隨時可看的時鐘與月曆。",
+  "keywords": "離線時鐘,月曆,舊iPhone,舊iPad,桌鐘,類比時鐘,iPad時鐘",
+  "supportURL": "https://ta1pre.github.io/old-ios-clock-calendar/zh-Hant/support/",
+  "privacyURL": "https://ta1pre.github.io/old-ios-clock-calendar/zh-Hant/privacy/",
+  "marketingURL": "https://ta1pre.github.io/old-ios-clock-calendar/zh-Hant/",
+  "category": "Utilities",
+  "priceUSD": "5.99",
+  "copyright": "2026 Taichi Umeki",
+  "reviewNotes": "不需要登入。App 可離線運作。請從右上角的小 Info 按鈕開啟設定。App 不包含廣告、帳號系統、訂閱或 App 內購買。"
+}

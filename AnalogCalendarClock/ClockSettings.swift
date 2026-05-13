@@ -174,8 +174,10 @@ final class ClockSettingsStore {
     }
 
     private init() {
-        let theme = ClockTheme(rawValue: defaults.string(forKey: Keys.theme) ?? "") ?? .dark
-        let weekStartDay = WeekStartDay(rawValue: defaults.string(forKey: Keys.weekStartDay) ?? "") ?? .sunday
+        let savedTheme = ClockTheme(rawValue: defaults.string(forKey: Keys.theme) ?? "") ?? .dark
+        let savedWeekStartDay = WeekStartDay(rawValue: defaults.string(forKey: Keys.weekStartDay) ?? "") ?? .sunday
+        let theme = ScreenshotOptions.shared.theme ?? savedTheme
+        let weekStartDay = ScreenshotOptions.shared.weekStartDay ?? savedWeekStartDay
         settings = ClockSettings(theme: theme, weekStartDay: weekStartDay)
     }
 

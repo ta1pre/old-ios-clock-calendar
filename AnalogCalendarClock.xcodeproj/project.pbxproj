@@ -15,6 +15,7 @@
 		111111111111111111111106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222107 /* Assets.xcassets */; };
 		111111111111111111111107 /* ClockSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222108 /* ClockSettings.swift */; };
 		111111111111111111111108 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222109 /* SettingsViewController.swift */; };
+		111111111111111111111109 /* ScreenshotOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222110 /* ScreenshotOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		222222222222222222222107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		222222222222222222222108 /* ClockSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockSettings.swift; sourceTree = "<group>"; };
 		222222222222222222222109 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		222222222222222222222110 /* ScreenshotOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				222222222222222222222104 /* CalendarMonthView.swift */,
 				222222222222222222222108 /* ClockSettings.swift */,
 				222222222222222222222109 /* SettingsViewController.swift */,
+				222222222222222222222110 /* ScreenshotOptions.swift */,
 				222222222222222222222105 /* Info.plist */,
 				222222222222222222222106 /* LaunchScreen.storyboard */,
 				222222222222222222222107 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				111111111111111111111108 /* SettingsViewController.swift in Sources */,
+				111111111111111111111109 /* ScreenshotOptions.swift in Sources */,
 				111111111111111111111107 /* ClockSettings.swift in Sources */,
 				111111111111111111111103 /* AnalogClockView.swift in Sources */,
 				111111111111111111111104 /* CalendarMonthView.swift in Sources */,

@@ -1,0 +1,105 @@
+{
+  "defaultLocale": "en-US",
+  "locales": [
+    {
+      "locale": "en-US",
+      "language": "English",
+      "tier": 0,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "ja-JP",
+      "language": "日本語",
+      "tier": 0,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "de-DE",
+      "language": "Deutsch",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "es-ES",
+      "language": "Español",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "fr-FR",
+      "language": "Français",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "it-IT",
+      "language": "Italiano",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "ko-KR",
+      "language": "한국어",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "nl-NL",
+      "language": "Nederlands",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    },
+    {
+      "locale": "zh-Hant",
+      "language": "繁體中文",
+      "tier": 1,
+      "status": "done",
+      "text": "done",
+      "screenshots": "done",
+      "supportPage": "done",
+      "privacyPage": "done"
+    }
+  ]
+}

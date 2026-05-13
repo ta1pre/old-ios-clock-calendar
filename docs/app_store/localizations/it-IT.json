@@ -1,0 +1,16 @@
+{
+  "locale": "it-IT",
+  "isDefault": false,
+  "appName": "Old Device Clock & Calendar",
+  "subtitle": "Riusa i vecchi dispositivi",
+  "promotionalText": "Trasforma un vecchio iPhone o iPad in un semplice orologio e calendario offline.",
+  "description": "Old Device Clock & Calendar ti aiuta a riutilizzare un vecchio iPhone o iPad come semplice orologio con calendario mensile. L'app funziona offline e mantiene solo ciò che serve: un orologio analogico, un calendario mensile, modalità chiara e scura e la scelta del primo giorno della settimana. Nessun account. Nessuna pubblicità. Nessun tracciamento. Nessun abbonamento. Un acquisto una tantum per un orologio e calendario sempre pronto e discreto.",
+  "keywords": "orologio offline,calendario,vecchio iphone,vecchio ipad,orologio da scrivania,analogico,ipad",
+  "supportURL": "https://ta1pre.github.io/old-ios-clock-calendar/it-IT/support/",
+  "privacyURL": "https://ta1pre.github.io/old-ios-clock-calendar/it-IT/privacy/",
+  "marketingURL": "https://ta1pre.github.io/old-ios-clock-calendar/it-IT/",
+  "category": "Utilities",
+  "priceUSD": "5.99",
+  "copyright": "2026 Taichi Umeki",
+  "reviewNotes": "Non serve effettuare l'accesso. L'app funziona offline. Apri Impostazioni dal piccolo pulsante Info in alto a destra. L'app non include pubblicità, account, abbonamenti o acquisti in-app."
+}

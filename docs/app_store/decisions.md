@@ -39,5 +39,5 @@
 
 ## Naming note
 
-- Requested App Name: `Old iOS Clock & Calendar`
-- Fallback if App Review flags trademark wording: `Old Device Clock & Calendar`
+- Approved App Name: `Old Device Clock & Calendar`
+- Rejected risky variant: `Old iOS Clock & Calendar`
