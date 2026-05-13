@@ -24,6 +24,8 @@
 - Initial localized language: `ja-JP`
 - Root public support pages stay English
 - Japanese public pages live under `/ja/`
+- GitHub repository: `https://github.com/ta1pre/old-ios-clock-calendar`
+- GitHub Pages base URL: `https://ta1pre.github.io/old-ios-clock-calendar/`
 
 ## Availability strategy
 
