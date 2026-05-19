@@ -8,7 +8,12 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        UIApplication.shared.isIdleTimerDisabled = true
+        application.isIdleTimerDisabled = true
+
+        if #available(iOS 13.0, *) {
+            return true
+        }
+
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = MainViewController()
         window.makeKeyAndVisible()
@@ -17,7 +22,21 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        UIApplication.shared.isIdleTimerDisabled = true
+        application.isIdleTimerDisabled = true
+    }
+
+    @available(iOS 13.0, *)
+    func application(
+        _ application: UIApplication,
+        configurationForConnecting connectingSceneSession: UISceneSession,
+        options: UIScene.ConnectionOptions
+    ) -> UISceneConfiguration {
+        let configuration = UISceneConfiguration(
+            name: "Default Configuration",
+            sessionRole: connectingSceneSession.role
+        )
+        configuration.delegateClass = SceneDelegate.self
+        return configuration
     }
 
     func application(

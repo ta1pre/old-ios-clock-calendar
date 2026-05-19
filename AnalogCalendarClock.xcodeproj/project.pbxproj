@@ -16,6 +16,7 @@
 		111111111111111111111107 /* ClockSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222108 /* ClockSettings.swift */; };
 		111111111111111111111108 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222109 /* SettingsViewController.swift */; };
 		111111111111111111111109 /* ScreenshotOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222110 /* ScreenshotOptions.swift */; };
+		111111111111111111111110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222111 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		222222222222222222222108 /* ClockSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockSettings.swift; sourceTree = "<group>"; };
 		222222222222222222222109 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		222222222222222222222110 /* ScreenshotOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotOptions.swift; sourceTree = "<group>"; };
+		222222222222222222222111 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				222222222222222222222101 /* AppDelegate.swift */,
+				222222222222222222222111 /* SceneDelegate.swift */,
 				222222222222222222222102 /* MainViewController.swift */,
 				222222222222222222222103 /* AnalogClockView.swift */,
 				222222222222222222222104 /* CalendarMonthView.swift */,
@@ -151,6 +154,7 @@
 				111111111111111111111103 /* AnalogClockView.swift in Sources */,
 				111111111111111111111104 /* CalendarMonthView.swift in Sources */,
 				111111111111111111111102 /* MainViewController.swift in Sources */,
+				111111111111111111111110 /* SceneDelegate.swift in Sources */,
 				111111111111111111111101 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
